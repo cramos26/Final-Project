@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <title> Page 2 (REDONE) </title>
+  </head>
+  <body>
+<div style="width: 100%">
+  <div style="width: 50%; float: left">
+    <p id="q1"> Q1 During the course of the semester we have learned HTML, CSS, and __________?
+    <!-- Answer: Javascript -->
+<p> <input onchange="checkq1()" id="firstresponse"> </p>
+
+    <p> Q2 Which days of the week are office hours offered on Tuesdays? </p>
+    <p> (Hint: Format must be in "A-B" format) </p>
+<p> <input onchange="checksecond()" id="secondresponse"> </p>
+    <!-- Answer: 1-4 -->
+
+    <p> Q3 What was the second project assigned to the class named (Exactly as shown)? </p>
+    <p> (Hint: This can be found directly from backboard) </p>
+    <!-- Answer: p02: Pseudo Intelligence Test -->
+<p> <input onchange="checkthird()" id="thirdresponse"> </p>
+
+    <p> Q4 The final project is worth _____ points.
+    <!-- 100 -->
+<p> <input onchange="checkfourth()" id="fourthresponse"> </p>
+
+    <p> Q5 Lastly, what year is it?
+<p><input onchange="checkfifth()" id="fifthresponse"> </p>
+    <!-- 2016 -->
+<p> If an answer is right you will see a: <img id="green" src="http://www.clker.com/cliparts/2/k/n/l/C/Q/transparent-green-checkmark-hi.png" alt="Green Check Mark" width="45" height="45"> </p>
+<p> If an answer is right you will see a: <img id="red" src="http://www.drodd.com/images15/red-x4.png" alt="Red X Mark" width="45" height="45"> </p>
+  </div>
+  <div style="width: 40%; float: right">
+  <p id="a1">  </p>
+  </div>
+</div>
+<script>
+var q1 = document.getElementById("firstresponse").value;
+var ans = 1;
+function checkq1() {
+  if ( q1 == 1 )
+{
+    console.log(q1);
+    console.log(ans);
+    document.getElementById("a1").innerHTML = "right";
+    console.log("correct");
+}
+  else
+{
+    console.log("0");
+    document.getElementById("a1").innerHTML = "wrong";
+    console.log("wrong");
+}
+                   }
+</script>
+  </body>
+  </html>
+<!--
+Need to get the answer portion corrected; Keep getting wrong for checkq1()
+Need to set cookies
+Need to include: Arrays, Iteration, or JSON objects

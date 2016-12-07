@@ -1,13 +1,17 @@
 var totalright = 0;
 var totalwrong = 0;
 
+
 function checkfirst()
 {
 var firstanswer = document.getElementById("firstresponse").value;
  if (firstanswer == kbuffardi@csuchico.edu)
  { totalright++;
    setCookie("totalright", totalright, 1);
-   alert("Correct!"); }
+   alert("Correct!");
+   document.getElementById("try").innerHTML = <p id="se"> Which days of the week are office hours offered on Tuesdays?
+     (Hint: Format must be in "A-B" format)
+   <input onchange="checksecond()" id="secondresponse"> </p>;}
   else
 {  totalwrong++;
    setCookie("totalwrong", totalwrong, 1);
@@ -28,6 +32,7 @@ var secondanswer = document.getElementById("secondresponse").value;
    alert("Wrong!"); }
 }
 
+
 function checkthird()
 {
 var thirdanswer = document.getElementById("thirdresponse").value;
@@ -40,6 +45,7 @@ var thirdanswer = document.getElementById("thirdresponse").value;
    setCookie("totalwrong", totalwrong, 1);
    alert("Wrong!"); }
 }
+
 
 function checkfourth()
 {
@@ -54,10 +60,25 @@ var fourthanswer = document.getElementById("fourthresponse").value;
    alert("Wrong!"); }
 }
 
+
 function checkfifth()
 {
 var fifthanswer = document.getElementById("fifthresponse").value;
  if (fifthanswer == 100)
+ { totalright++;
+   setCookie("totalright", totalright, 1);
+   alert("Correct!"); }
+  else
+{  totalwrong++;
+   setCookie("totalwrong", totalwrong, 1);
+   alert("Wrong!"); }
+}
+
+
+function checksixth()
+{
+var sixthanswer = document.getElementById("fifthresponse").value;
+ if (sixthanswer == 2016)
  { totalright++;
    setCookie("totalright", totalright, 1);
    alert("Correct!"); }
@@ -74,10 +95,6 @@ function displayresults() {
   document.getElementById("firstresult").innerHTML = totalright;
   document.getElementById("secondresult").innerHTML = totalwrong;
 }
-
-
-
-
 
 
 function setCookie(cname, cvalue, exdays) {
