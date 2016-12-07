@@ -2,73 +2,47 @@
   <html>
   <head>
     <title> Page 2 (REDONE) </title>
-      <script
-          src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
-      </script>
+          <link rel="stylesheet" href="FinalProject.css"/>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+          <script type="text/javascript" src="FinalProject.js"></script>
   </head>
 
   <body>
 <div style="width: 100%">
+<!-- Left Div -->
   <div style="width: 50%; float: left">
-    <p id="1"> Q1 During the course of the semester we have learned HTML, CSS, and __________?
+    <p id="1"> Q1 During the course of the semester we have learned HTML, CSS, and __________? </p>
     <!-- Answer: Javascript -->
 <p> <input onchange="checkq1()" id="firstresponse"> </p>
 
-    <p> Q2 Which days of the week are office hours offered on Tuesdays? </p>
-    <p> (Hint: Format must be in "A-B" format) </p>
+    <p> Q2 According to BlackBoard, what are the office hours offered on Tuesdays?
+    <br><b> (Hint: Format must be in "A-B" format)</b> </p>
 <p> <input onchange="checksecond()" id="secondresponse"> </p>
     <!-- Answer: 1-4 -->
 
-    <p> Q3 What was the second project assigned to the class named (Exactly as shown)? </p>
-    <p> (Hint: This can be found directly from backboard) </p>
+    <p> Q3 What was the second project assigned to the class named (Exactly as shown)?
+    <br><b> (Hint: This can be found directly from backboard)</b></p>
     <!-- Answer: p02: Pseudo Intelligence Test -->
 <p> <input onchange="checkthird()" id="thirdresponse"> </p>
 
-    <p> Q4 The final project is worth _____ points.
+    <p> Q4 The final project is worth _____ points. </p>
     <!-- 100 -->
 <p> <input onchange="checkfourth()" id="fourthresponse"> </p>
 
-    <p> Q5 Lastly, what year is it?
+    <p> Q5 Lastly, what year is it? </p>
 <p><input onchange="checkfifth()" id="fifthresponse"> </p>
     <!-- 2016 -->
-<p> If an answer is right you will see a: <img id="green" src="http://www.clker.com/cliparts/2/k/n/l/C/Q/transparent-green-checkmark-hi.png" alt="Green Check Mark" width="45" height="45"> </p>
-<p> If an answer is right you will see a: <img id="red" src="http://www.drodd.com/images15/red-x4.png" alt="Red X Mark" width="45" height="45"> </p>
+<p> If an answer is right you will see a: <img id="green" src="http://www.clker.com/cliparts/2/k/n/l/C/Q/transparent-green-checkmark-hi.png" alt="Green Check Mark" width="20" height="20"> </p>
+<p> If an answer is right you will see a: <img id="red" src="http://www.drodd.com/images15/red-x4.png" alt="Red X Mark" width="20" height="20"> </p>
   </div>
+<!-- Right Div -->
   <div style="width: 40%; float: right">
-          <p id="a1" visibility:hidden;>
-   <!--<img id="green" src="http://www.clker.com/cliparts/2/k/n/l/C/Q/transparent-green-checkmark-hi.png" alt="Green Check Mark" width="45" height="45">
-   <img id="red" src="http://www.drodd.com/images15/red-x4.png" alt="Red X Mark" width="45" height="45"> -->
-          </p>
+          <p id="a1"></p>
   </div>
 </div>
-<script>
-var firstresponse;
-function checkq1() {
-
-  q1 = document.getElementById("firstresponse").value;
-
-  if ( ( q1.match(/ramos/i) ) && (q1.length < 6 ) )
-  {
-    document.getElementById("a1").innerHTML = "right";
-    console.log("correct");
-
- $(document).ready(function(){
- $("#1").append('<img src="http://www.clker.com/cliparts/2/k/n/l/C/Q/transparent-green-checkmark-hi.png" alt="Green Check Mark" width="20" height="20"/>');
- });
-    }
-  else
-      {
-    document.getElementById("a1").innerHTML = "wrong";
-    console.log("wrong");
-$(document).ready(function(){
-$("#1").append('<img src="http://www.drodd.com/images15/red-x4.png" alt="Red X Mark" width="20" height="20"/>');
-});
-      }
-                   }
-</script>
   </body>
   </html>
-<!-- Help from:
-<!--
+<!-- Help with:
 Need to set cookies
 Need to include: Arrays, Iteration, or JSON objects
+-->

@@ -6,13 +6,13 @@ function checkq1() {
 
   q1 = document.getElementById("firstresponse").value;
 
-  if ( ( q1.match(/ramos/i) ) && (q1.length < 6 ) )
+  if ( ( q1.match(/javascript/i) ) && (q1.length == 10 ) )
 {
     document.getElementById("a1").innerHTML = "right";
     console.log("correct");
 
   $(document).ready(function(){
-  $("#1").append('<img src="http://www.clker.com/cliparts/2/k/n/l/C/Q/transparent-green-checkmark-hi.png" alt="Green Check Mark" width="20" height="20"/>');
+  $("#firstresponse").after('<img src="http://www.clker.com/cliparts/2/k/n/l/C/Q/transparent-green-checkmark-hi.png" alt="Green Check Mark" width="20" height="20"/>');
   });
 }
   else
@@ -20,19 +20,18 @@ function checkq1() {
     document.getElementById("a1").innerHTML = "wrong";
     console.log("wrong");
 $(document).ready(function(){
-$("#1").append('<img src="http://www.drodd.com/images15/red-x4.png" alt="Red X Mark" width="20" height="20"/>');
+$("#firstresponse").after('<img src="http://www.drodd.com/images15/red-x4.png" alt="Red X Mark" width="20" height="20"/>');
 });
       }
                    }
 
-function checkfirst()
+/*function checkfirst()
 {
 var firstanswer = document.getElementById("firstresponse").value;
- if (firstanswer == kbuffardi@csuchico.edu)
+ if (firstanswer == 1)
  { totalright++;
    setCookie("totalright", totalright, 1);
    alert("Correct!");
-   document.getElementById("try").innerHTML = <p id="se"> Which days of the week are office hours offered on Tuesdays?
      (Hint: Format must be in "A-B" format)
    <input onchange="checksecond()" id="secondresponse"> </p>;}
   else
@@ -42,74 +41,6 @@ var firstanswer = document.getElementById("firstresponse").value;
 }
 
 
-function checksecond()
-{
-var secondanswer = document.getElementById("secondresponse").value;
- if (secondanswer == 1-4)
- { totalright++;
-   setCookie("totalright", totalright, 1);
-   alert("Correct!"); }
-  else
-{  totalwrong++;
-   setCookie("totalwrong", totalwrong, 1);
-   alert("Wrong!"); }
-}
-
-
-function checkthird()
-{
-var thirdanswer = document.getElementById("thirdresponse").value;
- if (thirdanswer == p02: Pseudo Intelligence Test)
- { totalright++;
-   setCookie("totalright", totalright, 1);
-   alert("Correct!"); }
-  else
-{  totalwrong++;
-   setCookie("totalwrong", totalwrong, 1);
-   alert("Wrong!"); }
-}
-
-
-function checkfourth()
-{
-var fourthanswer = document.getElementById("fourthresponse").value;
- if (fourthanswer == 100)
- { totalright++;
-   setCookie("totalright", totalright, 1);
-   alert("Correct!"); }
-  else
-{  totalwrong++;
-   setCookie("totalwrong", totalwrong, 1);
-   alert("Wrong!"); }
-}
-
-
-function checkfifth()
-{
-var fifthanswer = document.getElementById("fifthresponse").value;
- if (fifthanswer == 100)
- { totalright++;
-   setCookie("totalright", totalright, 1);
-   alert("Correct!"); }
-  else
-{  totalwrong++;
-   setCookie("totalwrong", totalwrong, 1);
-   alert("Wrong!"); }
-}
-
-
-function checksixth()
-{
-var sixthanswer = document.getElementById("fifthresponse").value;
- if (sixthanswer == 2016)
- { totalright++;
-   setCookie("totalright", totalright, 1);
-   alert("Correct!"); }
-  else
-{  totalwrong++;
-   setCookie("totalwrong", totalwrong, 1);
-   alert("Wrong!"); }
-}
 
 function displayresults() {
   var totalright = getCookie("totalright");
@@ -118,7 +49,7 @@ function displayresults() {
   document.getElementById("firstresult").innerHTML = totalright;
   document.getElementById("secondresult").innerHTML = totalwrong;
 }
-
+*/
 
 function setCookie(cname, cvalue, exdays) {
     var d = new Date();
