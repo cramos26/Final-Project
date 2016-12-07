@@ -1,6 +1,29 @@
 var totalright = 0;
 var totalwrong = 0;
 
+var firstresponse;
+function checkq1() {
+
+  q1 = document.getElementById("firstresponse").value;
+
+  if ( ( q1.match(/ramos/i) ) && (q1.length < 6 ) )
+{
+    document.getElementById("a1").innerHTML = "right";
+    console.log("correct");
+
+  $(document).ready(function(){
+  $("#1").append('<img src="http://www.clker.com/cliparts/2/k/n/l/C/Q/transparent-green-checkmark-hi.png" alt="Green Check Mark" width="20" height="20"/>');
+  });
+}
+  else
+      {
+    document.getElementById("a1").innerHTML = "wrong";
+    console.log("wrong");
+$(document).ready(function(){
+$("#1").append('<img src="http://www.drodd.com/images15/red-x4.png" alt="Red X Mark" width="20" height="20"/>');
+});
+      }
+                   }
 
 function checkfirst()
 {
