@@ -290,7 +290,7 @@ function displayresults() {
   console.log(totalwrongparse);
   document.getElementById("totalrightpoints").innerHTML = totalrightparse;
   document.getElementById("totalwrongpoints").innerHTML = totalwrongparse;
-  var allpoints = totalright + totalwrong;
+  var allpoints = totalrightparse + totalwrongparse;
   var allpointsparse = parseInt(allpoints);
   console.log(allpoints);
   console.log(allpointsparse);
