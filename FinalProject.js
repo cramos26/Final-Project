@@ -117,7 +117,6 @@ var totalwrong = getCookie("totalwrong");
 q5 = document.getElementById("fifthresponse").value;
 if ( q5 == 2016 )
 {
-  document.getElementById("a5").innerHTML = "right";
   totalright++;
   setCookie("totalright",totalright, 1);
   console.log("q5 is correct");
