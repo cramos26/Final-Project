@@ -266,21 +266,20 @@ else
 function displayresults() {
   var totalright = getCookie("totalright");
   var totalrightparse = parseInt(totalright);
-  console.log(totalright);
   console.log(totalrightparse);
   var totalwrong = getCookie("totalwrong");
   var totalwrongparse = parseInt(totalwrong);
-  console.log(totalwrong);
   console.log(totalwrongparse);
   document.getElementById("totalrightpoints").innerHTML = totalrightparse;
   document.getElementById("totalwrongpoints").innerHTML = totalwrongparse;
   var allpoints = totalrightparse + totalwrongparse;
   var allpointsparse = parseInt(allpoints);
-  console.log(allpoints);
   console.log(allpointsparse);
   document.getElementById("totalposs").innerHTML = allpointsparse;
-  document.getElementById("calculation").innerHTML = (totalrightparse/allpointsparse) * 100 + "%";
-  console.log(totalrightparse/allpointsparse);
+  var calculateperc = (totalrightparse/allpointsparse) * 100;
+  var finalperc = calculateperc.toFixed(2) + "%";
+  document.getElementById("calculation").innerHTML = finalperc;
+  console.log(finalperc);
 }
 
 
