@@ -281,16 +281,22 @@ var firstanswer = document.getElementById("firstresponse").value;
 
 function displayresults() {
   var totalright = getCookie("totalright");
+  var totalrightparse = parseInt(totalright);
   console.log(totalright);
+  console.log(totalrightparse);
   var totalwrong = getCookie("totalwrong");
+  var totalwrongparse = parseInt(totalwrong);
   console.log(totalwrong);
-  document.getElementById("totalrightpoints").innerHTML = totalright;
-  document.getElementById("totalwrongpoints").innerHTML = totalwrong;
+  console.log(totalwrongparse);
+  document.getElementById("totalrightpoints").innerHTML = totalrightparse;
+  document.getElementById("totalwrongpoints").innerHTML = totalwrongparse;
   var allpoints = totalright + totalwrong;
+  var allpointsparse = parseInt(allpoints);
   console.log(allpoints);
-  document.getElementById("totalposs").innerHTML = allpoints;
-  document.getElementById("calculation").innerHTML = (totalright/allpoints) * 10;
-  console.log(totalright/allpoints);
+  console.log(allpointsparse);
+  document.getElementById("totalposs").innerHTML = allpointsparse;
+  document.getElementById("calculation").innerHTML = (totalrightparse/allpointsparse) * 100;
+  console.log(totalrightparse/allpointsparse);
 }
 
 
