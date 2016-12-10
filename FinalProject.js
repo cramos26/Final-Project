@@ -38,8 +38,8 @@ else
                     }
         var secondresponse;
         function checkq2() {
-        var totalright = getCookie("totaltries");
-        var totalwrong = getCookie("totalpoints")
+        var totalright = getCookie("totalright");
+        var totalwrong = getCookie("totalwrong")
         q2 = document.getElementById("secondresponse").value;
         if ( q2 == 4 )
         {
@@ -62,8 +62,8 @@ else
                             }
 var thirdresponse;
 function checkq3() {
-var totalright = getCookie("totaltries");
-var totalwrong = getCookie("totalpoints");
+var totalright = getCookie("totalright");
+var totalwrong = getCookie("totalwrong");
 q3 = document.getElementById("thirdresponse").value;
 if ( ( q3.match(/marvin minsky/i) )  || (q3.match(/marvin/i) && (q3.length == 6)) || (q3.match(/minsky/i) && q3.length == 6) )
 {
@@ -87,8 +87,8 @@ else
 
         var fourthresponse;
         function checkq4() {
-        var totalright = getCookie("totaltries");
-        var totalwrong = getCookie("totalpoints");
+        var totalright = getCookie("totalright");
+        var totalwrong = getCookie("totalwrong");
         q4 = document.getElementById("fourthresponse").value;
         if ( q4 == 100 )
         {
@@ -137,8 +137,8 @@ else
 
         var sixthresponse;
         function checkq6() {
-        var totalright = getCookie("totaltries");
-        var totalwrong = getCookie("totalpoints");
+        var totalright = getCookie("totalright");
+        var totalwrong = getCookie("totalwrong");
         q6 = document.getElementById("sixthresponse").value;
         if ( q6 == 110 )
         {
@@ -162,8 +162,8 @@ else
 
 var seventhresponse;
 function checkq7() {
-var totalright = getCookie("totaltries");
-var totalwrong = getCookie("totalpoints");
+var totalright = getCookie("totalright");
+var totalwrong = getCookie("totalwrong");
 q7 = document.getElementById("seventhresponse").value;
 if ( q7 == 220 )
 {
@@ -188,8 +188,8 @@ else
 
         var eighthresponse;
         function checkq8() {
-        var totalright = getCookie("totaltries");
-        var totalwrong = getCookie("totalpoints");
+        var totalright = getCookie("totalright");
+        var totalwrong = getCookie("totalwrong");
         q8 = document.getElementById("eighthresponse").value;
         if ( q8 == 3 )
         {
@@ -213,8 +213,8 @@ else
 
 var ninthresponse;
 function checkq9() {
-var totalright = getCookie("totaltries");
-var totalwrong = getCookie("totalpoints");
+var totalright = getCookie("totalright");
+var totalwrong = getCookie("totalwrong");
 q9 = document.getElementById("ninthresponse").value;
 if ( q9 == 40 )
 {
@@ -238,8 +238,8 @@ else
 
         var tenthresponse;
         function checkq10() {
-        var totalright = getCookie("totaltries");
-        var totalwrong = getCookie("totalpoints");
+        var totalright = getCookie("totalright");
+        var totalwrong = getCookie("totalwrong");
         q10 = document.getElementById("tenthresponse").value;
         if ( q10 == 29 )
         {
@@ -279,13 +279,19 @@ var firstanswer = document.getElementById("firstresponse").value;
 
 
 
-/*function displayresults() {
+function displayresults() {
   var totalright = getCookie("totalright");
+  console.log(totalright);
   var totalwrong = getCookie("totalwrong");
-  1 = right
-  document.getElementById("firstresult").innerHTML = totalright;
-  document.getElementById("secondresult").innerHTML = totalwrong;
-}*/
+  console.log(totalwrong);
+  document.getElementById("totalrightpoints").innerHTML = totalright;
+  document.getElementById("totalwrongpoints").innerHTML = totalwrong;
+  var allpoints = totalright + totalwrong;
+  console.log(allpoints);
+  document.getElementById("totalposs").innerHTML = allpoints;
+  document.getElementById("calculation").innerHTML = (totalright/allpoints) * 100;
+  console.log(totalright/allpoints);
+}
 
 
 function setCookie(cname, cvalue, exdays) {
