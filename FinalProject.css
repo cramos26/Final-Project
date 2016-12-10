@@ -1,22 +1,9 @@
-.backgroundpage {
-  background-color: red;
+.backgroundpage1 {
+  background-image: url(https://newevolutiondesigns.com/images/freebies/abstract-background-20.jpg);
 }
-.middle {
+.backgroundpage2 {
+  background-image: url(http://eskipaper.com/images/brown-abstract-background-1.jpg);
 }
-/*
-.fi  {
-  margin-top: 5px;
+p {
+  color: white;
 }
-.se {
-  margin-top: 10px;
-}
-.th {
-  margin-top: 15px;
-}
-.fo {
-  margin-top: 20px;
-}
-.fif {
-  margin-top: 25px;
-}
-*/
