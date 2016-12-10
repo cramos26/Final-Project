@@ -289,7 +289,7 @@ function displayresults() {
   var allpoints = totalright + totalwrong;
   console.log(allpoints);
   document.getElementById("totalposs").innerHTML = allpoints;
-  document.getElementById("calculation").innerHTML = (totalright/allpoints) * 100;
+  document.getElementById("calculation").innerHTML = (totalright/allpoints) * 10;
   console.log(totalright/allpoints);
 }
 
