@@ -262,22 +262,6 @@ else
                             }
 
 
-/*function checkfirst()
-{
-var firstanswer = document.getElementById("firstresponse").value;
- if (firstanswer == 1)
- { totalright++;
-   setCookie("totalright", totalright, 1);
-   alert("Correct!");
-     (Hint: Format must be in "A-B" format)
-   <input onchange="checksecond()" id="secondresponse"> </p>;}
-  else
-{  totalwrong++;
-   setCookie("totalwrong", totalwrong, 1);
-   alert("Wrong!"); }
-}*/
-
-
 
 function displayresults() {
   var totalright = getCookie("totalright");
@@ -295,7 +279,7 @@ function displayresults() {
   console.log(allpoints);
   console.log(allpointsparse);
   document.getElementById("totalposs").innerHTML = allpointsparse;
-  document.getElementById("calculation").innerHTML = (totalrightparse/allpointsparse) * 100;
+  document.getElementById("calculation").innerHTML = (totalrightparse/allpointsparse) * 100 + "%";
   console.log(totalrightparse/allpointsparse);
 }
 
