@@ -14,6 +14,7 @@ function timedfunction()
     setTimeout(hellouser, 3000);
 }
 
+
 var firstresponse;
 var array1 = [];
 function checkq1() {
@@ -292,6 +293,9 @@ else
                             }
 
 
+function timestartingquiz() {
+alert("Before you look at your results, remember you CAN go back and retake the test!");
+                            }
 
 function displayresults() {
   var totalright = getCookie("totalright");
@@ -310,6 +314,7 @@ function displayresults() {
   var finalperc = calculateperc.toFixed(2) + "%";
   document.getElementById("calculation").innerHTML = finalperc;
   console.log(finalperc);
+  document.getElementById("event").addEventListener("mousemove", timestartingquiz());
 }
 
 
