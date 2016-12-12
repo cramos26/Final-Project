@@ -13,3 +13,8 @@ p {
 h1 {
   text-align: center;
 }
+p.wrap {
+    width: 40em;
+    border: 1px solid #000000;
+    word-wrap: break-word;
+}
