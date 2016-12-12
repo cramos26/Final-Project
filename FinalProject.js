@@ -4,7 +4,7 @@ var peoplethattookquiz = [];
 function hellouser()
     {
       var user = prompt("Enter your first and last name", "");
-      peoplethattookquiz.push("user");
+      peoplethattookquiz.push(user);
       setCookie("peoplethattookquiz",peoplethattookquiz,1);
       if (user != null) {
       document.getElementById("usersname").innerHTML = "Hello, " + user + "! Welcome to Cesar's final project!";
