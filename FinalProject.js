@@ -1,13 +1,19 @@
 var totalright = 0;
 var totalwrong = 0;
-var peoplethattookquiz = [];
-setCookie("peoplethattookquiz",peoplethattookquiz,1);
+var answers1 = [];
+var answers2 = [];
+var answers3 = [];
+var answers4 = [];
+var answers5 = [];
+var answers6 = [];
+var answers7 = [];
+var answers8 = [];
+var answers9 = [];
+var answers10 = [];
+
 function hellouser()
     {
-      var peoplethattookquizstring = getCookie("peoplethattookquiz");
-      var peoplethattookquiz = JSON.parse(peoplethattookquizstring);
       var user = prompt("Enter your first and last name", "");
-      peoplethattookquiz.push(user);
       setCookie("peoplethattookquiz",peoplethattookquiz,1);
       if (user != null) {
       document.getElementById("usersname").innerHTML = "Hello, " + user + "! Welcome to Cesar's final project!";
@@ -22,6 +28,10 @@ function timedfunction()
 var firstresponse;
 function checkq1() {
 q1 = document.getElementById("firstresponse").value;
+var arr1 = [];
+arr1.push(q1);
+var json_str = JSON.stringify(arr);
+createCookie('mycookie', json_str);
 if ( ( q1.match(/javascript/i) ) && (q1.length == 10 ) )
 {
   totalright++;
@@ -285,8 +295,10 @@ function displayresults() {
   var finalperc = calculateperc.toFixed(2) + "%";
   document.getElementById("calculation").innerHTML = finalperc;
   console.log(finalperc);
-  var peoplethattookquiz = getCookie("peoplethattookquiz");
-  document.getElementById("people").innerHTML = peoplethattookquiz;
+
+  var json_str = getCookie('mycookie');
+  var arr = JSON.parse(json_str);
+  document.getElementById("grades");
 }
 
 
