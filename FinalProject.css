@@ -12,6 +12,7 @@ p {
 }
 h1 {
   text-align: center;
+  color: white;
 }
 p.wrap {
     width: 30em;
@@ -24,4 +25,7 @@ body {
 }
 a {
   font-family: courier; color: white;
+}
+h2 {
+  color: white;
 }
