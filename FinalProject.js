@@ -40,10 +40,13 @@ else
 }
                     }
         var secondresponse;
+        var array2 = [];
         function checkq2() {
         var totalright = getCookie("totalright");
         var totalwrong = getCookie("totalwrong")
         q2 = document.getElementById("secondresponse").value;
+        array2.push(q2);
+        document.getElementById("arrayfor2").innerHTML = array2;
         if ( q2 == 4 )
         {
           totalright++;
@@ -64,10 +67,13 @@ else
         }
                             }
 var thirdresponse;
+var array3 = [];
 function checkq3() {
 var totalright = getCookie("totalright");
 var totalwrong = getCookie("totalwrong");
 q3 = document.getElementById("thirdresponse").value;
+array3.push(q3);
+document.getElementById("arrayfor3").innerHTML = array3;
 if ( ( q3.match(/marvin minsky/i) )  || (q3.match(/marvin/i) && (q3.length == 6)) || (q3.match(/minsky/i) && q3.length == 6) )
 {
   totalright++;
@@ -89,10 +95,13 @@ else
                     }
 
         var fourthresponse;
+        var array4 = [];
         function checkq4() {
         var totalright = getCookie("totalright");
         var totalwrong = getCookie("totalwrong");
         q4 = document.getElementById("fourthresponse").value;
+        array4.push(q4);
+        document.getElementById("arrayfor4").innerHTML = array4;
         if ( q4 == 100 )
         {
           totalwrong ++;
@@ -114,10 +123,13 @@ else
                             }
 
 var fifthresponse;
+var array5 = [];
 function checkq5() {
 var totalright = getCookie("totalright");
 var totalwrong = getCookie("totalwrong");
 q5 = document.getElementById("fifthresponse").value;
+array5.push(q5);
+document.getElementById("arrayfor5").innerHTML = array5;
 if ( q5 == 2016 )
 {
   totalright++;
@@ -139,10 +151,13 @@ else
                     }
 
         var sixthresponse;
+        var array6 = [];
         function checkq6() {
         var totalright = getCookie("totalright");
         var totalwrong = getCookie("totalwrong");
         q6 = document.getElementById("sixthresponse").value;
+        array6.push(q6);
+        document.getElementById("arrayfor6").innerHTML = array6;
         if ( q6 == 110 )
         {
           totalright++;
@@ -164,10 +179,13 @@ else
                             }
 
 var seventhresponse;
+var array7 = [];
 function checkq7() {
 var totalright = getCookie("totalright");
 var totalwrong = getCookie("totalwrong");
 q7 = document.getElementById("seventhresponse").value;
+array7.push(q7);
+document.getElementById("arrayfor7").innerHTML = array7;
 if ( q7 == 220 )
 {
   totalright++;
@@ -190,10 +208,13 @@ else
 
 
         var eighthresponse;
+        var array8 = [];
         function checkq8() {
         var totalright = getCookie("totalright");
         var totalwrong = getCookie("totalwrong");
         q8 = document.getElementById("eighthresponse").value;
+        array8.push(q8);
+        document.getElementById("arrayfor8").innerHTML = array8;
         if ( q8 == 3 )
         {
           totalright++;
@@ -215,10 +236,13 @@ else
                             }
 
 var ninthresponse;
+var array9 = [];
 function checkq9() {
 var totalright = getCookie("totalright");
 var totalwrong = getCookie("totalwrong");
 q9 = document.getElementById("ninthresponse").value;
+array9.push(q9);
+document.getElementById("arrayfor9").innerHTML = array9;
 if ( q9 == 40 )
 {
   totalright++;
@@ -240,10 +264,13 @@ else
                   }
 
         var tenthresponse;
+        var array10 = [];
         function checkq10() {
         var totalright = getCookie("totalright");
         var totalwrong = getCookie("totalwrong");
         q10 = document.getElementById("tenthresponse").value;
+        array10.push(q10);
+        document.getElementById("arrayfor10").innerHTML = array10;
         if ( q10 == 29 )
         {
           totalright++;
