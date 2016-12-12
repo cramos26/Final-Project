@@ -19,3 +19,9 @@ p.wrap {
     word-wrap: break-word;
 /* Received help with code from W3 schools. Couldn't really change much */
 }
+body {
+  font-family: courier;
+}
+a {
+  font-family: courier; color: white;
+}
