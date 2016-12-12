@@ -1,8 +1,11 @@
 var totalright = 0;
 var totalwrong = 0;
 var peoplethattookquiz = [];
+setCookie("peoplethattookquiz",peoplethattookquiz,1);
 function hellouser()
     {
+      var peoplethattookquizstring = getCookie("peoplethattookquiz");
+      var peoplethattookquiz = JSON.parse(peoplethattookquizstring);
       var user = prompt("Enter your first and last name", "");
       peoplethattookquiz.push(user);
       setCookie("peoplethattookquiz",peoplethattookquiz,1);
