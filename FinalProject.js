@@ -282,12 +282,10 @@ function displayresults() {
   var finalperc = calculateperc.toFixed(2) + "%";
   document.getElementById("calculation").innerHTML = finalperc;
   console.log(finalperc);
-}
-
-function displaynames () {
   var peoplethattookquiz = getCookie("peoplethattookquiz");
   document.getElementById("people").innerHTML = peoplethattookquiz;
 }
+
 
 function setCookie(cname, cvalue, exdays) {
     var d = new Date();
