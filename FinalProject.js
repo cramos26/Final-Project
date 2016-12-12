@@ -1,9 +1,11 @@
 var totalright = 0;
 var totalwrong = 0;
-
+var peoplethattookquiz = [];
 function hellouser()
     {
       var user = prompt("Enter your first and last name", "");
+      peoplethattookquiz.push("user");
+      setCookie("peoplethattookquiz",peoplethattookquiz,1);
       if (user != null) {
       document.getElementById("usersname").innerHTML = "Hello, " + user + "! Welcome to Cesar's final project!";
     }
@@ -282,6 +284,10 @@ function displayresults() {
   console.log(finalperc);
 }
 
+function displaynames () {
+  var peoplethattookquiz = getCookie("peoplethattookquiz");
+  document.getElementById("people").innerHTML = peoplethattookquiz;
+}
 
 function setCookie(cname, cvalue, exdays) {
     var d = new Date();
