@@ -1,15 +1,5 @@
 var totalright = 0;
 var totalwrong = 0;
-var answers1 = [];
-var answers2 = [];
-var answers3 = [];
-var answers4 = [];
-var answers5 = [];
-var answers6 = [];
-var answers7 = [];
-var answers8 = [];
-var answers9 = [];
-var answers10 = [];
 
 function hellouser()
     {
@@ -25,12 +15,11 @@ function timedfunction()
 }
 
 var firstresponse;
+var array1 = [];
 function checkq1() {
 q1 = document.getElementById("firstresponse").value;
-var arr1 = [];
-arr1.push(q1);
-var json_str = JSON.stringify(arr);
-createCookie('mycookie', json_str);
+array1.push(q1);
+document.getElementById("arrayfor1").innerHTML = array1;
 if ( ( q1.match(/javascript/i) ) && (q1.length == 10 ) )
 {
   totalright++;
@@ -294,10 +283,6 @@ function displayresults() {
   var finalperc = calculateperc.toFixed(2) + "%";
   document.getElementById("calculation").innerHTML = finalperc;
   console.log(finalperc);
-
-  var json_str = getCookie('mycookie');
-  var arr = JSON.parse(json_str);
-  document.getElementById("grades");
 }
 
 
