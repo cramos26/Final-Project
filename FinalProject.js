@@ -36,7 +36,7 @@ else
   setCookie("totalwrong", totalwrong, 1);
   console.log("q1 is incorrect");
   $(document).ready(function(){
-  $("#firstresponse").after('<img src="http://www.drodd.com/images15/red-x4.png" alt="Red X Mark" width="20" height="20"/>');
+  $("#firstresponse").after('<img src="http://www.pd4pic.com/images/red-sign-icon-mark-symbol-cross-circle-cartoon.png" alt="Red X Mark" width="20" height="20"/>');
                               });
 }
                     }
@@ -63,7 +63,7 @@ else
           setCookie("totalwrong", totalwrong, 1);
           console.log("q2 is incorrect");
           $(document).ready(function(){
-          $("#secondresponse").after('<img src="http://www.drodd.com/images15/red-x4.png" alt="Red X Mark" width="20" height="20"/>');
+          $("#secondresponse").after('<img src="http://www.pd4pic.com/images/red-sign-icon-mark-symbol-cross-circle-cartoon.png" alt="Red X Mark" width="20" height="20"/>');
                                       });
         }
                             }
@@ -90,7 +90,7 @@ else
   setCookie("totalwrong", totalwrong, 1);
   console.log("q3 is incorrect");
   $(document).ready(function(){
-  $("#thirdresponse").after('<img src="http://www.drodd.com/images15/red-x4.png" alt="Red X Mark" width="20" height="20"/>');
+  $("#thirdresponse").after('<img src="http://www.pd4pic.com/images/red-sign-icon-mark-symbol-cross-circle-cartoon.png" alt="Red X Mark" width="20" height="20"/>');
                               });
 }
                     }
@@ -118,7 +118,7 @@ else
           setCookie("totalwrong", totalwrong, 1);
           console.log("q4 is incorrect");
           $(document).ready(function(){
-          $("#fourthresponse").after('<img src="http://www.drodd.com/images15/red-x4.png" alt="Red X Mark" width="20" height="20"/>');
+          $("#fourthresponse").after('<img src="http://www.pd4pic.com/images/red-sign-icon-mark-symbol-cross-circle-cartoon.png" alt="Red X Mark" width="20" height="20"/>');
                                       });
         }
                             }
@@ -146,7 +146,7 @@ else
   setCookie("totalwrong", totalwrong, 1);
   console.log("q5 is incorrect");
   $(document).ready(function(){
-  $("#fifthresponse").after('<img src="http://www.drodd.com/images15/red-x4.png" alt="Red X Mark" width="20" height="20"/>');
+  $("#fifthresponse").after('<img src="http://www.pd4pic.com/images/red-sign-icon-mark-symbol-cross-circle-cartoon.png" alt="Red X Mark" width="20" height="20"/>');
                               });
 }
                     }
@@ -174,7 +174,7 @@ else
           setCookie("totalwrong", totalwrong, 1);
           console.log("q6 is incorrect");
           $(document).ready(function(){
-          $("#sixthresponse").after('<img src="http://www.drodd.com/images15/red-x4.png" alt="Red X Mark" width="20" height="20"/>');
+          $("#sixthresponse").after('<img src="http://www.pd4pic.com/images/red-sign-icon-mark-symbol-cross-circle-cartoon.png" alt="Red X Mark" width="20" height="20"/>');
                                       });
         }
                             }
@@ -202,7 +202,7 @@ else
   setCookie("totalwrong", totalwrong, 1);
   console.log("q7 is incorrect");
   $(document).ready(function(){
-  $("#seventhresponse").after('<img src="http://www.drodd.com/images15/red-x4.png" alt="Red X Mark" width="20" height="20"/>');
+  $("#seventhresponse").after('<img src="http://www.pd4pic.com/images/red-sign-icon-mark-symbol-cross-circle-cartoon.png" alt="Red X Mark" width="20" height="20"/>');
                               });
 }
                   }
@@ -231,7 +231,7 @@ else
           setCookie("totalwrong", totalwrong, 1);
           console.log("q8 is incorrect");
           $(document).ready(function(){
-          $("#eighthresponse").after('<img src="http://www.drodd.com/images15/red-x4.png" alt="Red X Mark" width="20" height="20"/>');
+          $("#eighthresponse").after('<img src="http://www.pd4pic.com/images/red-sign-icon-mark-symbol-cross-circle-cartoon.png" alt="Red X Mark" width="20" height="20"/>');
                                       });
         }
                             }
@@ -259,7 +259,7 @@ else
   setCookie("totalwrong", totalwrong, 1);
   console.log("q9 is incorrect");
   $(document).ready(function(){
-  $("#ninthresponse").after('<img src="http://www.drodd.com/images15/red-x4.png" alt="Red X Mark" width="20" height="20"/>');
+  $("#ninthresponse").after('<img src="http://www.pd4pic.com/images/red-sign-icon-mark-symbol-cross-circle-cartoon.png" alt="Red X Mark" width="20" height="20"/>');
                               });
 }
                   }
@@ -287,7 +287,7 @@ else
           setCookie("totalwrong", totalwrong, 1);
           console.log("q10 is incorrect");
           $(document).ready(function(){
-          $("#tenthresponse").after('<img src="http://www.drodd.com/images15/red-x4.png" alt="Red X Mark" width="20" height="20"/>');
+          $("#tenthresponse").after('<img src="http://www.pd4pic.com/images/red-sign-icon-mark-symbol-cross-circle-cartoon.png" alt="Red X Mark" width="20" height="20"/>');
                                       });
         }
                             }
