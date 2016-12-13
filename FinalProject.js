@@ -27,7 +27,7 @@ if ( ( q1.match(/javascript/i) ) && (q1.length == 10 ) )
   setCookie("totalright",totalright, 1);
   console.log("q1 is correct");
   $(document).ready(function(){
-  $("#firstresponse").after('<img src="http://www.clker.com/cliparts/2/k/n/l/C/Q/transparent-green-checkmark-hi.png" alt="Green Check Mark" width="20" height="20"/>');
+  $("#firstresponse").after('<img src="GreenCheckMark.png" alt="Green Check Mark" width="20" height="20"/>');
                               });
 }
 else
@@ -36,7 +36,7 @@ else
   setCookie("totalwrong", totalwrong, 1);
   console.log("q1 is incorrect");
   $(document).ready(function(){
-  $("#firstresponse").after('<img src="http://www.pd4pic.com/images/red-sign-icon-mark-symbol-cross-circle-cartoon.png" alt="Red X Mark" width="20" height="20"/>');
+  $("#firstresponse").after('<img src="RedXMark.png" alt="Red X Mark" width="20" height="20"/>');
                               });
 }
                     }
@@ -54,7 +54,7 @@ else
           setCookie("totalright",totalright, 1);
           console.log("q2 is correct");
           $(document).ready(function(){
-          $("#secondresponse").after('<img src="http://www.clker.com/cliparts/2/k/n/l/C/Q/transparent-green-checkmark-hi.png" alt="Green Check Mark" width="20" height="20"/>');
+          $("#secondresponse").after('<img src="GreenCheckMark.png" alt="Green Check Mark" width="20" height="20"/>');
                                       });
         }
         else
@@ -63,7 +63,7 @@ else
           setCookie("totalwrong", totalwrong, 1);
           console.log("q2 is incorrect");
           $(document).ready(function(){
-          $("#secondresponse").after('<img src="http://www.pd4pic.com/images/red-sign-icon-mark-symbol-cross-circle-cartoon.png" alt="Red X Mark" width="20" height="20"/>');
+          $("#secondresponse").after('<img src="RedXMark.png" alt="Red X Mark" width="20" height="20"/>');
                                       });
         }
                             }
@@ -81,7 +81,7 @@ if ( ( q3.match(/marvin minsky/i) )  || (q3.match(/marvin/i) && (q3.length == 6)
   setCookie("totalright",totalright, 1);
   console.log("q3 is correct");
   $(document).ready(function(){
-  $("#thirdresponse").after('<img src="http://www.clker.com/cliparts/2/k/n/l/C/Q/transparent-green-checkmark-hi.png" alt="Green Check Mark" width="20" height="20"/>');
+  $("#thirdresponse").after('<img src="GreenCheckMark.png" alt="Green Check Mark" width="20" height="20"/>');
                               });
 }
 else
@@ -90,7 +90,7 @@ else
   setCookie("totalwrong", totalwrong, 1);
   console.log("q3 is incorrect");
   $(document).ready(function(){
-  $("#thirdresponse").after('<img src="http://www.pd4pic.com/images/red-sign-icon-mark-symbol-cross-circle-cartoon.png" alt="Red X Mark" width="20" height="20"/>');
+  $("#thirdresponse").after('<img src="RedXMark.png" alt="Red X Mark" width="20" height="20"/>');
                               });
 }
                     }
@@ -109,7 +109,7 @@ else
           setCookie("totalwrong", totalwrong, 1);
           console.log("q4 is correct");
           $(document).ready(function(){
-          $("#fourthresponse").after('<img src="http://www.clker.com/cliparts/2/k/n/l/C/Q/transparent-green-checkmark-hi.png" alt="Green Check Mark" width="20" height="20"/>');
+          $("#fourthresponse").after('<img src="GreenCheckMark.png" alt="Green Check Mark" width="20" height="20"/>');
                                       });
         }
         else
@@ -118,7 +118,7 @@ else
           setCookie("totalwrong", totalwrong, 1);
           console.log("q4 is incorrect");
           $(document).ready(function(){
-          $("#fourthresponse").after('<img src="http://www.pd4pic.com/images/red-sign-icon-mark-symbol-cross-circle-cartoon.png" alt="Red X Mark" width="20" height="20"/>');
+          $("#fourthresponse").after('<img src="RedXMark.png" alt="Red X Mark" width="20" height="20"/>');
                                       });
         }
                             }
@@ -137,7 +137,7 @@ if ( q5 == 2016 )
   setCookie("totalright",totalright, 1);
   console.log("q5 is correct");
   $(document).ready(function(){
-  $("#fifthresponse").after('<img src="http://www.clker.com/cliparts/2/k/n/l/C/Q/transparent-green-checkmark-hi.png" alt="Green Check Mark" width="20" height="20"/>');
+  $("#fifthresponse").after('<img src="GreenCheckMark.png" alt="Green Check Mark" width="20" height="20"/>');
                               });
 }
 else
@@ -146,7 +146,7 @@ else
   setCookie("totalwrong", totalwrong, 1);
   console.log("q5 is incorrect");
   $(document).ready(function(){
-  $("#fifthresponse").after('<img src="http://www.pd4pic.com/images/red-sign-icon-mark-symbol-cross-circle-cartoon.png" alt="Red X Mark" width="20" height="20"/>');
+  $("#fifthresponse").after('<img src="RedXMark.png" alt="Red X Mark" width="20" height="20"/>');
                               });
 }
                     }
@@ -165,7 +165,7 @@ else
           setCookie("totalright",totalright, 1);
           console.log("q6 is correct");
           $(document).ready(function(){
-          $("#sixthresponse").after('<img src="http://www.clker.com/cliparts/2/k/n/l/C/Q/transparent-green-checkmark-hi.png" alt="Green Check Mark" width="20" height="20"/>');
+          $("#sixthresponse").after('<img src="GreenCheckMark.png" alt="Green Check Mark" width="20" height="20"/>');
                                       });
         }
         else
@@ -174,7 +174,7 @@ else
           setCookie("totalwrong", totalwrong, 1);
           console.log("q6 is incorrect");
           $(document).ready(function(){
-          $("#sixthresponse").after('<img src="http://www.pd4pic.com/images/red-sign-icon-mark-symbol-cross-circle-cartoon.png" alt="Red X Mark" width="20" height="20"/>');
+          $("#sixthresponse").after('<img src="RedXMark.png" alt="Red X Mark" width="20" height="20"/>');
                                       });
         }
                             }
@@ -193,7 +193,7 @@ if ( q7 == 220 )
   setCookie("totalright",totalright, 1);
   console.log("q7 is correct");
   $(document).ready(function(){
-  $("#seventhresponse").after('<img src="http://www.clker.com/cliparts/2/k/n/l/C/Q/transparent-green-checkmark-hi.png" alt="Green Check Mark" width="20" height="20"/>');
+  $("#seventhresponse").after('<img src="GreenCheckMark.png" alt="Green Check Mark" width="20" height="20"/>');
                               });
 }
 else
@@ -202,7 +202,7 @@ else
   setCookie("totalwrong", totalwrong, 1);
   console.log("q7 is incorrect");
   $(document).ready(function(){
-  $("#seventhresponse").after('<img src="http://www.pd4pic.com/images/red-sign-icon-mark-symbol-cross-circle-cartoon.png" alt="Red X Mark" width="20" height="20"/>');
+  $("#seventhresponse").after('<img src="RedXMark.png" alt="Red X Mark" width="20" height="20"/>');
                               });
 }
                   }
@@ -222,7 +222,7 @@ else
           setCookie("totalright",totalright, 1);
           console.log("q8 is correct");
           $(document).ready(function(){
-          $("#eighthresponse").after('<img src="http://www.clker.com/cliparts/2/k/n/l/C/Q/transparent-green-checkmark-hi.png" alt="Green Check Mark" width="20" height="20"/>');
+          $("#eighthresponse").after('<img src="GreenCheckMark.png" alt="Green Check Mark" width="20" height="20"/>');
                                       });
         }
         else
@@ -231,7 +231,7 @@ else
           setCookie("totalwrong", totalwrong, 1);
           console.log("q8 is incorrect");
           $(document).ready(function(){
-          $("#eighthresponse").after('<img src="http://www.pd4pic.com/images/red-sign-icon-mark-symbol-cross-circle-cartoon.png" alt="Red X Mark" width="20" height="20"/>');
+          $("#eighthresponse").after('<img src="RedXMark.png" alt="Red X Mark" width="20" height="20"/>');
                                       });
         }
                             }
@@ -250,7 +250,7 @@ if ( q9 == 40 )
   setCookie("totalright",totalright, 1);
   console.log("q9 is correct");
   $(document).ready(function(){
-  $("#ninthresponse").after('<img src="http://www.clker.com/cliparts/2/k/n/l/C/Q/transparent-green-checkmark-hi.png" alt="Green Check Mark" width="20" height="20"/>');
+  $("#ninthresponse").after('<img src="GreenCheckMark.png" alt="Green Check Mark" width="20" height="20"/>');
                               });
 }
 else
@@ -259,7 +259,7 @@ else
   setCookie("totalwrong", totalwrong, 1);
   console.log("q9 is incorrect");
   $(document).ready(function(){
-  $("#ninthresponse").after('<img src="http://www.pd4pic.com/images/red-sign-icon-mark-symbol-cross-circle-cartoon.png" alt="Red X Mark" width="20" height="20"/>');
+  $("#ninthresponse").after('<img src="RedXMark.png" alt="Red X Mark" width="20" height="20"/>');
                               });
 }
                   }
@@ -278,7 +278,7 @@ else
           setCookie("totalright",totalright, 1);
           console.log("q10 is correct");
           $(document).ready(function(){
-          $("#tenthresponse").after('<img src="http://www.clker.com/cliparts/2/k/n/l/C/Q/transparent-green-checkmark-hi.png" alt="Green Check Mark" width="20" height="20"/>');
+          $("#tenthresponse").after('<img src="GreenCheckMark.png" alt="Green Check Mark" width="20" height="20"/>');
                                       });
         }
         else
@@ -287,7 +287,7 @@ else
           setCookie("totalwrong", totalwrong, 1);
           console.log("q10 is incorrect");
           $(document).ready(function(){
-          $("#tenthresponse").after('<img src="http://www.pd4pic.com/images/red-sign-icon-mark-symbol-cross-circle-cartoon.png" alt="Red X Mark" width="20" height="20"/>');
+          $("#tenthresponse").after('<img src="RedXMark.png" alt="Red X Mark" width="20" height="20"/>');
                                       });
         }
                             }
